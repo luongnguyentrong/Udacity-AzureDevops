@@ -13,6 +13,8 @@ variables:
   webAppName: 'udacitydevops'
   projectRoot: $(System.DefaultWorkingDirectory)
   pythonVersion: '3.10'
+  environmentName: dev
+
 
 stages:
 - stage: Build
