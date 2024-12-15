@@ -15,13 +15,14 @@ variables:
   pythonVersion: '3.10'
   environmentName: dev
 
-
 stages:
 - stage: Build
   displayName: Build stage
   jobs:
   - job: BuildJob
     steps:
+    - checkout: self
+      clean: true 
     - task: UsePythonVersion@0
       displayName: 'Use $(pythonVersion)'
       inputs:
