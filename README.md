@@ -1,23 +1,39 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+![oulinr](./screenshots/overview.png)
+
+In this project, you will build a Github repository from scratch and create a scaffolding that will assist you in performing both Continuous Integration and Continuous Delivery. You'll use Github Actions along with a `Makefile`, `requirements.txt` and application code to perform an initial lint, test, and install cycle. Next, you'll integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
 
 ## Project Plan
-<TODO: Project Plan
+This submission is part of the 'Building a CI/CD Pipeline' project, a requirement for Udacity's 'DevOps Engineer for Microsoft Azure' Nanodegree program.
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+The project includes a Python application for predicting housing prices in Boston; however, the application itself was not developed by me.
+
+Key Features of This Repository:
+Deployment of the application in Azure CloudShell.
+Deployment of the application as an Azure App Service.
+Automated code testing using GitHub Actions, triggered by any commits to the repository.
+Implementation of a CI/CD pipeline in Azure DevOps, enabling automatic testing and deployment of updated code to the Azure App Service.
+
+A [Trello](https://trello.com/b/vxEsbB0y/udacity-azure-devops-building-ci-cd-pipeline) board to monitor task progress.
+
+Additionally, a [spreadsheet](https://docs.google.com/spreadsheets/d/1HsLqrNCmm3ldwu1NFBVSADi5dgP4i5Ed2bWTacX1AlA/edit?usp=sharing) has been set up to oversee the project schedule.
+
+For a visual demonstration of the project, please refer to this [YouTube video]().
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+![oulinr](./screenshots/udacity-architecture.png)
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+* Create an Azure App service for this project
 
-* Project running on Azure App Service
+![oulinr](./screenshots/appservice.png)
 
 * Project cloned into Azure Cloud Shell
+
+```shell
+git clone https://github.com/luongnguyentrong/Udacity-AzureDevops.git
+```
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
@@ -42,7 +58,18 @@ Port: 443
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+To further improve the "Building a CI/CD Pipeline" project, consider these key suggestions:
+
+* **Enhanced Documentation**: Improve project documentation and include detailed comments in the codebase.
+* **Comprehensive Unit** Testing: Increase test coverage, focusing on the machine learning model and API functionality.
+* **Code Review** Practices: Establish a formal code review process to ensure code quality.
+* **Improved Security**: Strengthen security measures, such as implementing robust input validation.
+* **Containerization:** Package the application using Docker for consistent deployment.
+* **Container Orchestration**: Introduce container orchestration tools like Kubernetes for scalability and reliability.
+* **Performance Monitoring**: Regularly monitor and optimize the application's performance.
+* **CI/**CD Pipeline Enhancements: Streamline the CI/CD pipeline to improve efficiency and reduce build times.
+* **Scaling Strategy**: Develop a strategy for application scaling and dynamic resource management.
+* **Backup and** Recovery: Establish a solid backup and disaster recovery plan to protect against data loss.
 
 ## Demo 
 
