@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: Azure Pipelines
+pool: default
 
 variables:
   azureServiceConnectionId: 'ac05a4d1-d680-41a7-bdcd-28da17d91b0e'
