@@ -27,7 +27,7 @@ For a visual demonstration of the project, please refer to this [YouTube video](
 
 * Create an Azure App service for this project
 
-![oulinr](./screenshots/appservice.png)
+![appservice](./screenshots/appservice.png)
 
 * Project cloned into Azure Cloud Shell
 
@@ -37,11 +37,18 @@ git clone https://github.com/luongnguyentrong/Udacity-AzureDevops.git
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
+```shell
+make all
+```
+
 * Output of a test run
+![passing](./screenshots/makeall.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+![azpipeline](./screenshots/azurepipeline.png)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
+![cd](./screenshots/automatic.png)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
@@ -53,8 +60,7 @@ Port: 443
 ```
 
 * Output of streamed log files from deployed application
-
-> 
+![log](./screenshots/logstream.png)
 
 ## Enhancements
 
