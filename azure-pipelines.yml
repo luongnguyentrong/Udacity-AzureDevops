@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: myPool
+pool: Azure Pipelines
 
 variables:
   azureServiceConnectionId: 'ac05a4d1-d680-41a7-bdcd-28da17d91b0e'
@@ -21,7 +21,6 @@ stages:
   displayName: Build stage
   jobs:
   - job: BuildJob
-    pool: myPool
     steps:
     - task: UsePythonVersion@0
       displayName: 'Use $(pythonVersion)'
@@ -57,7 +56,6 @@ stages:
   jobs:
   - deployment: DeploymentJob
     environment: $(environmentName)
-    pool: myPool
     strategy:
       runOnce:
         deploy:
