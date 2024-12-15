@@ -19,8 +19,7 @@ A [Trello](https://trello.com/b/vxEsbB0y/udacity-azure-devops-building-ci-cd-pip
 
 Additionally, a [spreadsheet](https://docs.google.com/spreadsheets/d/1HsLqrNCmm3ldwu1NFBVSADi5dgP4i5Ed2bWTacX1AlA/edit?usp=sharing) has been set up to oversee the project schedule.
 
-For a visual demonstration of the project, please refer to this [YouTube video]().
-
+For a visual demonstration of the project, please refer to this [YouTube video](https://www.youtube.com/watch?v=5n2A5tcnftc).
 ## Instructions
 
 ![oulinr](./screenshots/udacity-architecture.png)
@@ -79,6 +78,4 @@ To further improve the "Building a CI/CD Pipeline" project, consider these key s
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
-
-
+[YouTube video](https://www.youtube.com/watch?v=5n2A5tcnftc)
