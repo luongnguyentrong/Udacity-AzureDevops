@@ -67,7 +67,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : rob-udacity-webapp'
+            displayName: 'Deploy Azure Web App'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
