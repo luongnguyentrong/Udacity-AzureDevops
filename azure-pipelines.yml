@@ -9,7 +9,7 @@ trigger:
 pool: default
 
 variables:
-  azureServiceConnectionId: 'azuredevops-udacity'
+  azureServiceConnectionId: 'azuredevops'
   webAppName: 'udacitydevops'
   projectRoot: $(System.DefaultWorkingDirectory)
   pythonVersion: '3.10'
