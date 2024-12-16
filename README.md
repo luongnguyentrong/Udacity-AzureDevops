@@ -1,3 +1,4 @@
+[![Python application test with Github Actions](https://github.com/luongnguyentrong/Udacity-AzureDevops/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/luongnguyentrong/Udacity-AzureDevops/actions/workflows/pythonapp.yml/badge.svg)
 # Overview
 
 ![oulinr](./screenshots/overview.png)
