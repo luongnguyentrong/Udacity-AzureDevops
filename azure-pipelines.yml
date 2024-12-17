@@ -23,11 +23,7 @@ stages:
     steps:
     - checkout: self
       clean: true 
-    - task: UsePythonVersion@0
-      displayName: 'Use $(pythonVersion)'
-      inputs:
-        versionSpec: '$(pythonVersion)'
-    
+  
     - script: |
         python3 -m venv udacity-devoops
         source dacity-devoops/bin/activate
