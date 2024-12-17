@@ -26,7 +26,7 @@ stages:
     - task: UsePythonVersion@0
       displayName: 'Use $(pythonVersion)'
       inputs:
-          versionSpec: '$(pythonVersion)'
+        versionSpec: '$(pythonVersion)'
     
     - script: |
         python3 -m venv udacity-devoops
