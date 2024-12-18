@@ -32,17 +32,23 @@ For a visual demonstration of the project, please refer to this [YouTube video](
 * Project cloned into Azure Cloud Shell
 
 ```shell
-git clone https://github.com/luongnguyentrong/Udacity-AzureDevops.git
+git clone git@github.com:luongnguyentrong/Udacity-AzureDevops.git
 ```
+
+![image](./screenshots/git_clone_ssh.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
 ```shell
 make all
 ```
+![image](./screenshots/make_all.png)
 
 * Output of a test run
-![passing](./screenshots/makeall.png)
+![passing](./screenshots/test_output.png)
+
+* Github Action CI automatically triggered on every new commit
+![image](./screenshots/github_ci.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 ![azpipeline](./screenshots/azurepipeline.png)
